@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100;300&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #1F1F1F;
+}
+
+
+main {
+  height: 100%;
+  width: 100%;
+  background: none;
+}
+
+.form_base_div {
+  position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+  height: 500px;
+  width: 400px;
+  box-shadow: 20px 20px 30px 0px black;
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-left:1px solid rgba(255,255,255,0.5);
+  background-color: #121212;
+}
+
+.logo_div {
+  height: 100px;
+  width: 100%;
+}
+.img {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  float: left;
+  margin-left:10px;
+}
+
+.compaylogo_text {
+  float: right;
+  margin-top: 20px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bolder;
+  margin-right:30px;
+  font-size: 20px;
+  color: white
+}
+
+.form_div {
+  height: 80%;
+  width: 80%;
+  padding: 10px;
+}
+
+.l1 {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  color:white;
+}
+
+input {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  outline:none;
+  background: none;
+  border-bottom: 2px solid gray;
+  color:#F54748;
+}
+input:focus {
+  border-bottom: 2px solid green;
+}
+
+
+select {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: #1f3a93;
+  border: none;
+  outline:none;
+  color: white;
+  font-size: 20px;
+  transition: 0.7s;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: #1e8bc3;
+}
+
+@media (max-width:800px)
+{
+  .form_base_div {
+    background: none;
+    height: 500px;
+    width: 350px;
+    box-shadow: 0px 0px 5px 0px black;
+
+  }
+  .form_div {
+    height: 80%;
+    width: 80%;
+    padding: 10px;
+
+  }
+}

@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#23262B;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+header {
+  height: 200px;
+  width: 100vw;
+  background-color:#15191C;
+  transition: 0.5s all ease;
+  box-shadow: 0px 0px 20px 0px black;
+}
+.bra_btn {
+  height: auto;
+  width: auto;
+  margin-top: 60px;
+  margin-left: 10px;
+  float:left;
+  border: none;
+  outline: none;
+  background: none;
+  color:white;
+  transition: 0.4s;
+}
+.bra_btn:hover {
+  color:gray;
+}
+
+
+
+/* ------------------------ side nav bar style ------------------------ */
+.navpanel_div
+{
+ z-index: 1;
+ height: 100%;
+ width: auto;
+ margin-top: -220px;
+ margin-left: -1600px;
+ transition: 1s;
+ position: fixed;
+}
+
+.closing {
+ z-index: 1;
+ height: 50px;
+ width: 100%;
+ color: white;
+ border: none;
+ outline: none;
+ background: none;
+ border-bottom: 1px solid gray;
+}
+.closing:hover {
+ color: gray;
+}
+.navpanel_inner_div {
+ z-index: 1;
+ height: 100%;
+ width: 700px;
+ background-color: #15191C;
+ overflow-y: scroll;
+}
+nav {
+ background-color: #15191C;
+ height: 100%;
+ width: 100%;
+}
+.nav_head_div1 {
+ font-size: 30px;
+ font-family: 'Saira Extra Condensed', sans-serif;
+ color:#42464F;
+ height:50px;
+ width: 100%;
+ letter-spacing: 2px;
+ outline: none;
+ background: none;
+ border: none;
+ cursor: default;
+ text-align: left;
+}
+
+.icon {
+ height: auto;
+ width: auto;
+ float: right;
+ color:white;
+}
+.dashboard_main_div {
+  height: auto;
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background:none;
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.dashboard_main_div a {
+  font-size:25px;
+  cursor: pointer;
+  color: gray;
+  text-decoration: none;
+}
+.dashboard_main_div a:hover{
+  color: white;
+}
+.dashboard_main_div a:active{
+ color: orange;
+ text-decoration: underline;
+}
+.Policie{
+  text-decoration: none;
+  color:#292929
+}
+.Policie:hover{
+  color:#EB0542;
+}
+
+
+.title{
+  margin-top:20px;
+  height:50%;
+  width:auto;
+  font-size:2rem;
+  line-height: 50px;
+}
+
+.list-base-div{
+  margin-top: 10px;
+  height:450px;
+  width:90%;
+  box-shadow: 0px 0px 10px 1px black;
+  padding:
+}
+
+.base-div{
+  height:100%;
+  width:100%;
+  overflow:scroll;
+}
+.heading_div{
+  height:50px;
+  width:200px;
+  line-height:50px;
+  color:orange;
+  font-size:1.5rem;
+  border-bottom: 1px solid white;
+}
+.table_content{
+  line-height:50px;
+  font-size:1rem;
+  height:100px;
+  width:200px;
+  color:white;
+  text-align:center;
+  overflow:hidden;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  height: 4px;
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #d6daa1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+button{
+  height:100%;
+  width:30%;
+  background:none;
+  outline:none;
+  border:none;
+  transition: 0.5s;
+  font-size:30px;
+}
+button:hover{
+  background:rgba(255,255,255,0.2);
+}
+button:hover>i{
+  color:red;
+}
+
+.home{
+  color:white;
+}
+
+
+
+main{
+  height: auto;
+  width:auto;
+}
+
+button i{
+  font-size:1.5rem;
+}
+
+
+
+
+@media (max-width: 800px)
+{
+  .navpanel_div
+  {
+   margin-top: -220px;
+  }
+  .navpanel_inner_div {
+   width: 500px;
+  }
+  .dashboard_main_div a{
+    font-size:20px;
+  }
+  .nav_head_div1 {
+   font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 200px;
+    width: 100vw;
+  }
+  .navpanel_div
+  {
+   margin-top: -220px;
+  }
+  .navpanel_inner_div {
+   width: 300px;
+  }
+  .dashboard_main_div a{
+    font-size:20px;
+  }
+  .nav_head_div1 {
+   font-size: 25px;
+  }
+  form{
+    width:80%;
+  }
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#23262B;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.sal_form_base
+{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.external
+{
+  height:95%;
+  width:95%;
+}
+
+form
+{
+    height:100%;
+    width:90%;
+    overflow-y: scroll;
+}
+
+input
+{
+    height:30px;
+    width:80%;
+}
+.item1
+{
+    background-color: rgba(255, 255, 255, 0.1);
+  grid-area: header;
+  height:60px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.item2
+{
+    background-color: rgba(255, 255, 255, 0.1);
+  grid-area: menu;
+  height:560px;
+  color:white;
+  font-size: 20px;
+}
+.item3
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    grid-area: main;
+    height:560px;
+    font-size: 20px;
+}
+.grid-container {
+  height:100%;
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu menu main main main ';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+d
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #d6daa1;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.submit_btn
+{
+  height:40px;
+  width:150px;
+  font-size:1.5rem;
+  font-weight:bold;
+}
