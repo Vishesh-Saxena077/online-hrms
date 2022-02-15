@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#23262B;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+header {
+  height: 100px;
+  width: 100vw;
+  background-color:#15191C;
+  transition: 0.5s all ease;
+  box-shadow: 0px 0px 20px 0px black;
+}
+
+.btn{
+			float: left;
+			margin-left: 50px;
+			margin-top: 20px;
+			height: 50px;
+			width: 50px;
+			font-size: 1.5rem;
+			color: white;
+			border-radius: 5rem;
+			transition: 0.5s;
+			outline:none;
+			border: none;
+      background:none;
+      box-shadow: 0px 0px 5px 2px black;
+		}
+    .btn:hover{
+      box-shadow: inset 0px 0px 5px 2px black;
+    }
+
+.act_btn{
+    font-size:2rem;
+    color: white;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+main{
+  height: auto;
+  width:auto;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-right:10px;
+}
+.div1{
+  height:100vh;
+  width:95%;
+  border:1px solid white;
+  padding:5px 8px 5px 5px;
+}
+.div1_1
+{
+  height:100%;
+  width:100%;
+  border:1px solid white;
+}
+
+.detail_1{
+  height:100px;
+  width:100%;
+  background-color:orange;
+}
+.detail_2{
+  height:100px;
+  width:100%;
+  background-color:green;
+}
+.detail_3{
+  height:100px;
+  width:100%;
+  background-color:red;
+}
+table, td{
+  border: 1px solid white;
+ padding: 5px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+  *border-collapse: expression('separate', cellSpacing='10px');
+}

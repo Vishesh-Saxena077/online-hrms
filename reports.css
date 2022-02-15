@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#23262B;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+header {
+  height: 200px;
+  width: 100vw;
+  background-color:#15191C;
+  transition: 0.5s all ease;
+  box-shadow: 0px 0px 20px 0px black;
+}
+.bra_btn {
+  font-size:50px;
+  margin-top: 60px;
+  margin-left: 10px;
+  float:left;
+  border: none;
+  outline: none;
+  background: none;
+  color:white;
+  transition: 0.4s;
+}
+
+.act_btn{
+    font-size:2rem;
+    color: white;
+}
+
+.item1 {
+  grid-area: header;
+  height:300px;
+}
+
+.item3 {
+  grid-area: main;
+  height:500px;
+}
+.item4 {
+  grid-area: right;
+  height:500px;
+}
+.item5 {
+  grid-area: footer;
+  height:400px;
+}
+
+.grid-container {
+  height:auto;
+  margin-top:10px;
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main right right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: none;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+table{
+  border:1px solid black;
+  border-collapse: separate;
+  border-spacing: 10px;
+  *border-collapse: expression('separate', cellSpacing='10px');
+}
+.div0{
+  height:120px;
+  width:350px;
+  background-color:red;
+}
+
+.over_time{
+  height:230px;
+  width:400px;
+  background-color:red;
+}
